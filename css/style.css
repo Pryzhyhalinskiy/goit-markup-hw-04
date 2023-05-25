@@ -52,9 +52,15 @@ img {
 /* CONTAINER*/
 
 .container {
-    width: 1158px;
+    /* width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15px; */
+
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* ==========/COMPONENTS==========*/
@@ -64,7 +70,9 @@ img {
     border-bottom: 1px solid #E7e9fc;
     padding-top: 24px;
     padding-bottom: 24px;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
+
 
 .page-header-container {
     display: flex;
@@ -173,6 +181,7 @@ img {
         url('../images/hero/office.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     margin-left: auto;
     margin-right: auto;
 }
@@ -379,9 +388,21 @@ img {
 
 .social-list-our-team {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    column-gap: 24px;
-    padding: 8px 16px 0px 16px;
+    gap: 24px;
+    flex-wrap: nowrap;
+    margin-top: 8px;
+
+    /* display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding: 8px 16px 0px 16px; */
+}
+
+.social-list-item {
+width: 40px;
+height: 40px;
 }
 
 /* ==========/OUR TEAM========== */
