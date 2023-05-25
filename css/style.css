@@ -417,8 +417,8 @@ img {
 
 .social-list-link:hover,
 .social-list-link:focus {
-    background-color: #31d0aa;
-    /* background-color: #404bbf; */
+    background-color: #404bbf;
+    /* background-color: #31d0aa; */
 }
 
 .social-list-icon {
