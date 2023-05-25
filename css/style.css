@@ -417,7 +417,8 @@ img {
 
 .social-list-link:hover,
 .social-list-link:focus {
-    background-color: #404bbf;
+    background-color: #31d0aa;
+    /* background-color: #404bbf; */
 }
 
 .social-list-icon {
@@ -583,7 +584,8 @@ img {
 
 .social-list-link:hover,
 .social-list-link:focus {
-    background-color: var(--accent-color-social-link);
+    background-color: #31d0aa;
+    /* background-color: var(--accent-color-social-link); */
 }
 .social-list-icon {
     fill: var(--secondary-text-color-theme-dark);
