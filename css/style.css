@@ -431,9 +431,9 @@ img {
 
 /* ==========CUSTOMERS========== */
 .description-customers {
-    background-color: var(--primary-text-color-theme-dark);
     padding-top: 120px;
     padding-bottom: 120px;
+    background-color: var(--primary-text-color-theme-dark);
 }
 
 .customers-list {
@@ -441,47 +441,65 @@ img {
     justify-content: space-between;
     flex-wrap: nowrap;
     gap: 24px;
-    color: var(--primary-text-color-theme-light: #434455);
+    color: var(--primary-text-color-theme-light);
 }
 
 .customers-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: calc((100% - 120px) / 6);
     height: 88px;
+/*     
+    gap: 24px;
+    border-radius: 4px; */
+    /* box-shadow: 0px 4px 4px 0px; */
+    /* background: rgba(0, 0, 0, 1);
+    color:  #8e8f99; 
     border: 1px solid rgba(142, 143, 153, 1);
-    border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px;
-    /* background: rgba(0, 0, 0, 1); */
+    */
 }
 
-.customers-list-item:hover,
+/* .customers-list-item:hover,
 .customers-list-item:focus {
-    border: 1px solid rgba(64, 75, 191, 1)
-}
+    /* border: 1px solid rgba(64, 75, 191, 1); */
+    /* color: #404bbf; 
+    border-color: #404bbf; 
+} */
 
 .customers-list-link {
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
     border: 1px solid #8e8f99;
     border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: #8E8F99;
-    background-color: #FFFFFF;
+
+    /* box-sizing: border-box; */
+    /* background-color: #FFFFFF; */
+}
+
+.customers-list-link:hover,
+.customers-list-link:focus {
+    border-color: #404bbf;
+    color: #404BBF;
+    /* border: 1px solid rgba(64, 75, 191, 1); */
 }
 
 .customers-list-icon {
     fill: currentColor;
 }
 
-.customers-list-link:hover .customers-list-icon,
+/* .customers-list-link:hover .customers-list-icon,
 .customers-list-link:focus .customers-list-icon {
     color: #404BBF;
-    border-color: #404BBF;
+    border: 1px solid rgba(64, 75, 191, 1); */
+    /* border-color: #404BBF; */
     /* fill: #404BBF;
-    border: #404BBF; */
-}
+    border: #404BBF;  */
 
 /* ==========/CUSTOMERS========== */
 
